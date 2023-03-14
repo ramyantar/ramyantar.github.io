@@ -18,13 +18,21 @@
             padding: 20px;
             text-align: center;
             color: white;
+            position: relative;
         }
 
-        .university-logos {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            margin-bottom: 20px;
+        .left-logos, .right-logos {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .left-logos {
+            left: 10px;
+        }
+
+        .right-logos {
+            right: 10px;
         }
 
         main {
@@ -47,9 +55,11 @@
 </head>
 <body>
     <header>
-        <div class="university-logos">
+        <div class="left-logos">
             <img src="https://drive.google.com/uc?id=1ydbgSXgO649hknrdhBmyhDyQqN4bJoDB" alt="University Logo 1" width="100" height="100">
             <img src="https://drive.google.com/uc?id=1eJqpIH7-9rWXfhFOh7IW4kB2x5dYHQqY" alt="University Logo 2" width="100" height="100">
+        </div>
+        <div class="right-logos">
             <img src="https://drive.google.com/uc?id=1kyGe-7tq2DyvB71vPc4P96dfDDoXkzw0" alt="University Logo 3" width="100" height="100">
             <img src="https://drive.google.com/uc?id=1LhUCUHkfzessUgMkMPza9yxzin0CfAEr" alt="University Logo 4" width="100" height="100">
         </div>
@@ -68,14 +78,14 @@
 
             <p>I am a Certified SOLIDWORKS Expert in Mechanical Design and a Certified SOLIDWORKS Professional in Sheet Metal, Weldments, Surfacing, and Drawing Tools. As a mechanical design engineer, I have three years of experience designing and manufacturing machines and robotics. Through my work, I have gained extensive experience in designing and building robotic systems and have discovered a passion for learning about other robotics topics.</p>
 
-            <p>As a marine robotics master's student, I gained a strong understanding of the principles of robotics, including modeling, control, ROS, autonomous systems, machine learning, computer vision, artificial intelligence, and marine science. My interests currently are Robotic manipulation, Localization and Mapping, and Autonomous Systems. I hope to continue on to a Ph.D. related to these areas.</p>
-        </div>
-    </main>
-    <footer>
-        <p>&copy; 2023 Ramy Alham's Website. All Rights Reserved.</p>
-    </footer>
-    <script>
-        // Add your JavaScript code here
-    </script>
+            <p>As a marine robotics master's student, I gained a strong understanding of the principles of robotics, including modeling, control, ROS, autonomous systems, machine learning, computer vision, artificial intelligence, and marine science. I believe an internship with you would be a valuable opportunity for me to gain more knowledge. My interests currently are Robotic manipulation, Localization and Mapping, and Autonomous Systems. I hope to continue on to a Ph.D. related to these areas.</p>
+    </div>
+</main>
+<footer>
+    <p>&copy; 2023 Ramy Alham. All Rights Reserved.</p>
+</footer>
+<script>
+    // Add your JavaScript code here
+</script>
 </body>
 </html>

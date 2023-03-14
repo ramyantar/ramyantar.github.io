@@ -1,146 +1,73 @@
-<!DOCTYPE HTML>
-<!--
-	Strata by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Ramy Antar Website</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Simple Website</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
 
-		<!-- Header -->
-			<header id="header">
-				<div class="inner">
-					<a href="#" class="image avatar"><img src="images/1656370128720.jpeg" alt="" /></a>
-					<h1><strong>I am Ramy Antar</strong>,<p>Robotics Enthusiast.</p></h1>
-					<h1><strong>Contact me:</strong></h1>
-					<ul class="icons">
-						<!--<li><a href="https://github.com/AbdelrhmanBassiouny" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>-->
-						<li><a href="https://www.linkedin.com/in/ramyantar94/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-						<li><a href="mailto:ramyantar@aun.edu.eg" target="_blank" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
-				</div>
-			</header>
+        header {
+            background-color: #4CAF50;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
 
-		<!-- Main -->
-			<div id="main">
+        main {
+            padding: 20px;
+        }
 
-				<!-- One -->
-					<section id="one">
-						<header class="major">
-							<h2>Short Background</h2>
-						</header>
-						<p style="text-align:justify"> I received my bachelor degree in Mechanical Engineering from Assiut University - Egypt with Grade Excellent with honor and ranked the first 
-							out of 135 students. Then I worked as a Teaching and Research Assistant for 1 year and 6 months in Assiut University, Egypt. I am now a Master's Student 
-							 in<a href="https://www.master-mir.eu/" target="_blank">Marine & Maritime Intelligent Robotics (Erasmus Mundus Joint Master's Degree)</a>
-								 at <a href="https://www.univ-tln.fr/" target="_blank">Universite de Toulon in France </a> and <a href="https://www.uji.es/" target="_blank">Universidad Jaume I in Spain</a>
-								 , as a holder a scholarship from European Commission and one of 22 students who got selected to get this scholarship among 1000 applications.
-								 My interests currently are Robotic manipulation, Computer Vision, Machine Learning/AI, and Autonomous Systems. I hope to continue on to a Ph.D. related to these areas.</p>
-						<!-- <ul class="actions">
-							<li><a href="https://europa.eu/europass/eportfolio/screen/share/a3d424df-c9ae-4d04-bc89-440dc1065c6a?lang=en" target="_blank" class="button">Full Portfolio</a></li>
-						</ul> -->
-						<div class="row">
-							<a href="https://eng.asu.edu.eg/" target="_blank"><img src="images/ainshamslogo.png"></a>
-							<a href="https://www.master-mir.eu/" target="_blank"><img src="images/mirlogo.png"></a>
-							<a href="https://www.univ-tln.fr/" target="_blank"><img src="images/utlnlogo.png"></a>
-							<a href="https://www.uji.es/" target="_blank"><img src="images/ujilogo.jpeg"></a>
-						</div>
-					</section>
-					<section id="cv">
-						<header class="major">
-							<h2>Full Portfolio</h2>
-						</header>
-					<iframe src="https://drive.google.com/file/d/15GjBcDtn-RJnobWDiVgn-emwexB2WM6y/preview" width="640" height="480" allow="autoplay"></iframe>				
-					</section>
-				<!-- Two -->
-					<section id="two">
-						<h2>Featured Projects</h2>
-						<div class="row">
-							<article class="col-6 col-12-xsmall work-item">
-								<iframe width="450" height="300" src="https://www.youtube.com/embed/DrsZcyIvMZc"
-								 title="Autonomous Semi-Destructive Disassembly of E-Waste Labtops" frameborder="0"
-								  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-								<iframe width="450" height="300" src="https://www.youtube.com/embed/62MTDgTppc8" title="The RAND-E Project: Final Submission" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-								<h3>Autonomous Semi-Destructive Disassembly of E-Waste Labtops</h3>
-								<a href="https://github.com/E-Waste-Project" target="_blank">github code</a>
-								<p>I developed the <a href="https://github.com/E-Waste-Project/perception" target="_blank">perception</a> (Detection of laptop components) and image based path planning of the cutting operations,
-									 also some of the <a href="https://github.com/E-Waste-Project/robot_helpers" target="_blank">robot helper functions</a> that use the force/torque sensor for touch and force detection </p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<iframe width="450" height="300" src="https://www.youtube.com/embed/Ojdyu86RGDs"
-								 title="Highly Dynamic Autonomous Serial Manipulators For Industry" frameborder="0"
-								  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-								<h3>Highly Dynamic Autonomous Serial Manipulators For Industry</h3>
-								<a href="https://github.com/AbdElRahmanFarhan/Autonomous_Serial_Manipulators_for_Industry" target="_blank">github code</a>
-								<p>I also developed <a href="https://github.com/AbdelrhmanBassiouny/stopp" target="_blank"> STOPP: Safe Time Optimal Path Parametrization</a> to be able to safely perform the highly dynamic motions of the robot.</p>
-							</article>
-						</div>
-					</section>
+        footer {
+            background-color: #4CAF50;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Simple Website</h1>
+    </header>
+    <main>
+        <h1><strong>I am Ramy Antar</strong>,<p>Robotics Enthusiast.</p></h1>
+        <h1><strong>Contact me:</strong></h1>
+        <ul class="icons">
+            <li><a href="https://www.linkedin.com/in/ramyantar94/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+            <li><a href="mailto:ramyantar@aun.edu.eg" target="_blank" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+        </ul>
 
-				<!-- Three -->								
-					<section id="Three">
-						<h2>Competitions & Awards</h2>
-						<div class="col">
-							<article class="col-6 col-12-xsmall work-item">
-								<h3>Best Scientific Mehodolgy Award</h3>
-								<iframe src="https://drive.google.com/file/d/1kHSlHG752JcgA0gUc7DkDoqHlamS0uAd/preview" width="450" height="300" allow="autoplay"></iframe>
-								<p><a href="https://msl.robocup.org/history#2022" target="_blank">Robocup Middle Size League 2022</a> at Bangok,Thailand. Our Team (Robot Club Toulon) was also the Runner Up in the Technical Challenge.
-									I was in the Localization team, and we developed the Extended Kalman Filter Implementation to fuse data from encoders, Lidar, and IMU in C#.</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<h3>Runner Up in MIR Championship-The Guerledus Challenge</h3>
-								<img src="https://www.master-mir.eu/wp-content/uploads/Equipe-challenge-1-credits-photo-ENSTA-Bretagne-2048x1365.jpg" width="450" height="300">
-								<p><a href="https://www.master-mir.eu/1st-mir-championship-the-guerledus-challenge/" target="_blank">The Guerledus Challenge 2022</a> at Rennes,France.
-									 We were the only team that used ROS to program the autonomous boat.</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<h3>Ranked 3rd World Wide + Lightning Speed Award (Franka-Emika)</h3>
-								<iframe width="450" height="300" src="https://www.youtube.com/embed/4QgSiGciNaM"
-								 title="Robothon Grand Challenge 2021- Team RANDE" frameborder="0"
-								  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-								<p><a href="https://robothon-grand-challenge.com/" target="_blank">Robothon Grand Challenge 2021</a> at Munich, Germany</p>
-							</article>
-						</div>
-					</section>
-				
-				<!-- Four -->								
-					<section id="Four">
-						<h2>Publications</h2>
-						<div class="col">
-							<article class="col-6 col-12-xsmall work-item">
-								<p>A. M. Bassiouny, A. S. Farhan, S. A. Maged and M. I. Awaad, <a href="https://ieeexplore.ieee.org/document/9447637" target="_blank">"Comparison of Different Computer Vision Approaches for E-waste Components Detection to Automate E-waste Disassembly,"</a> 2021 International Mobile, Intelligent, and Ubiquitous Computing Conference (MIUCC), 2021, pp. 17-23, doi: 10.1109/MIUCC52538.2021.9447637.</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<p>A. S. Farhan, et al., <a href="https://ieeexplore.ieee.org/document/9686083" target="_blank">"Autonomous Non-Destructive Assembly/Disassembly of Electronic Components using A Robotic Arm,"</a> 2021 16th International Conference on Computer Engineering and Systems (ICCES), 2021, pp. 1-7, doi: 10.1109/ICCES54031.2021.9686083.</p>
-							</article>
-						</div>
-					</section>
-
-			</div>
-
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="inner">
-					<!-- <ul class="icons">
-						<li><a href="https://github.com/AbdelrhmanBassiouny" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a href="https://www.linkedin.com/in/abdelrhman-bassiouny-b3a097138/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-						<li><a href="mailto:abdelrhman_bassuny@hotmail.com" target="_blank" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-					</ul> -->
-				</div>
-			</footer>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+        <section id="one">
+            <header class="major">
+                <h2>Short Background</h2>
+            </header>
+            <p style="text-align:justify"> I received my bachelor degree in Mechanical Engineering from Assiut University - Egypt with Grade Excellent with honor and ranked the first 
+                out of 135 students. Then I worked as a Teaching and Research Assistant for 1 year and 6 months in Assiut University, Egypt. I am now a Master's Student 
+                in <a href="https://www.master-mir.eu/" target="_blank">Marine & Maritime Intelligent Robotics (Erasmus Mundus Joint Master's Degree)</a>
+                at <a href="https://www.univ-tln.fr/" target="_blank">Universite de Toulon in France </a> and <a href="https://www.uji.es/" target="_blank">Universidad Jaume I in Spain</a>
+                , as a holder a scholarship from European Commission and one of 22 students who got selected to get this scholarship among 1000 applications.
+                My interests currently are Robotic manipulation, Computer Vision, Machine Learning/AI, and Autonomous Systems. I hope to continue on to a Ph.D. related to these areas.</p>
+            <div class="row">
+                <div class="row">
+                    <a href="https://eng.asu.edu.eg/" target="_blank"><img src="images/ainshamslogo.png" width="100" height="100"></a>
+                    <a href="https://www.master-mir.eu/" target="_blank"><img src="images/mirlogo.png" width="100" height="100"></a>
+                    <a href="https://www.univ-tln.fr/" target="_blank"><img src="images/utlnlogo.png" width="100" height="100"></a>
+                    <a href="https://www.uji.es/" target="_blank"><img src="images/ujilogo.jpeg" width="100" height="100"></a>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2023 My Simple Website. All Rights Reserved.</p>
+        </footer>
+    <script>
+        // Add your JavaScript code here
+    </script>
+</body>
 </html>

@@ -1,50 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Simple Website</title>
+    <title>Ramy Antar's CV</title>
     <style>
-        /* Add your CSS styles here */
         body {
             font-family: Arial, sans-serif;
-            background-color: #f5f5f5;
+            line-height: 1.6;
             margin: 0;
-            padding: 0;
-        }
-
-        header {
-            background-color: #4CAF50;
-            padding: 20px;
-            text-align: center;
-            color: white;
-        }
-
-        main {
             padding: 20px;
         }
 
-        footer {
-            background-color: #4CAF50;
-            padding: 10px;
-            text-align: center;
-            color: white;
+        h1,
+        h2,
+        h3,
+        h4 {
+            margin: 0;
+        }
+
+        p {
+            margin: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .section {
+            margin-bottom: 20px;
         }
     </style>
 </head>
+
 <body>
-    <header>
-        <h1>Welcome to My Simple Website</h1>
-    </header>
-    <main>
-        <h2>About</h2>
-        <p>This is a simple website created using HTML, CSS, and JavaScript. Feel free to modify and expand upon this code to create your own website!</p>
-    </main>
-    <footer>
-        <p>&copy; 2023 My Simple Website. All Rights Reserved.</p>
-    </footer>
-    <script>
-        // Add your JavaScript code here
-    </script>
+    <div class="container">
+        <h1>Ramy Antar Ahmed Alham</h1>
+        <p>83160 La Valette-du-Var, France</p>
+        <p>● ramy-alham@etud.univ-tln.fr ● +33767838147 ● <a href="https://github.com/">GitHub</a> ● <a href="https://www.linkedin.com/">LinkedIn</a></p>
+        
+        <!-- Add the CV content as sections -->
+
+        <div class="section">
+            <h2>EDUCATION</h2>
+            <p>Master’s in Marine Robotics, NTNU, Norway. Sep 2022 – Aug 2024</p>
+            <p>Master’s Degree in Engineering of Complex Systems, UTLN, France. Sep 2022 – Aug 2024</p>
+            <p>B.Sc. Mechanical Engineering, Assiut University, Egypt. Sep 2015 – Jun 2020</p>
+        </div>
+
+        <!-- Add more sections as needed -->
+        <!-- Example: -->
+        <div class="section">
+            <h2>TEACHING AND RESEARCH EXPERIENCE</h2>
+            <p>Teaching and Research Assistant, Assiut University, Egypt Apr 2021 – Sep 2022</p>
+            <p>Freelancer Mechanical Design Engineer (Part-Time) May 2019 – Aug 2021</p>
+            <!-- Add more content as needed -->
+        </div>
+
+        <!-- Continue adding sections for the rest of the CV content -->
+
+    </div>
 </body>
+
 </html>

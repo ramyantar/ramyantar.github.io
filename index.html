@@ -60,6 +60,24 @@
             text-align: center;
             color: white;
         }
+         logo-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        /* Add the new CSS rule for the images inside the logo container */
+        .logo-container img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Add the media query to adjust styles based on device width */
+        @media screen and (max-width: 480px) {
+            .logo-container img {
+                width: 25%;
+            }
     </style>
 </head>
 <body>

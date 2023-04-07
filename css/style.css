@@ -99,6 +99,26 @@ section .row.section-container{
     line-height: 1.6;
 }
 /* end education section */
+.work-experience h3 {
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.work-experience h4 {
+    font-size: 1rem;
+    font-weight: normal;
+    margin-bottom: 1rem;
+}
+
+.work-experience ul {
+    padding-left: 1.5rem;
+}
+
+.work-experience li {
+    margin-bottom: 0.5rem;
+}
+
 /* start project section */
 .project{
     height: fit-content;

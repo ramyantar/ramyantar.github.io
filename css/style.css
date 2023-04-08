@@ -124,14 +124,13 @@ section .row.section-container{
 
 .university-logos {
     display: flex;
-    gap: 5px;
     align-items: center;
     margin-top: 10px;
 }
 
 .university-logo {
-    max-height: 90px;
-    max-width: 180px;
+    max-height: 120px; /* Adjust this value as needed */
+    max-width: 180px; /* Adjust this value as needed */
 }
 
 

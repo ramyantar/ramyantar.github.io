@@ -122,6 +122,18 @@ section .row.section-container{
     padding-left: 20px;
 }
 
+.university-logos {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.university-logo {
+    max-height: 30px;
+    max-width: 60px;
+}
+
 
 /* start project section */
 .project{
